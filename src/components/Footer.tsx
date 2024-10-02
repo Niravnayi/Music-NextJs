@@ -12,7 +12,7 @@ const Footer = () => {
             fostering a vibrant community of musicians.
           </p>
         </div>
-        <div>
+        <div className="px-4">
           <h4 className=" mb-5">Quick Links</h4>
           <ul>
             <li>
@@ -49,7 +49,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="px-4">
           <h4 className=" mb-5">Follow Us</h4>
           <ul className="flex gap-4">
             <li>
@@ -63,7 +63,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="px-4">
           <h4 className=" mb-5">Contact Us </h4>
           <div className="flex flex-col gap-2">
           <p>Kadi,Gujrat</p>
