@@ -5,6 +5,10 @@ import Image from "next/image";
 import musicMastery from "../app/assets/music-mastery.webp"
 import image2 from "../app/assets/image2.webp"
 import image3 from '../app/assets/image3.webp'
+import image4 from '../app/assets/image4.webp'
+import image5 from '../app/assets/image5.jpeg'
+import image6 from '../app/assets/image6.jpeg'
+
 
 const musicSchoolContent = [
   {
@@ -27,6 +31,17 @@ const musicSchoolContent = [
     title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
     description:
       "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.",
+      content: (
+        <div className="h-full w-full  flex items-center justify-center text-white">
+          <Image
+            src={image4}
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+          />
+        </div>
+      ),
   },
   {
     title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
@@ -48,11 +63,34 @@ const musicSchoolContent = [
     title: "Live Feedback & Engagement",
     description:
       "Immerse yourself in an interactive learning experience where feedback is immediate, just like real-time changes in a collaborative project. This approach enhances your understanding and mastery of music concepts and performance techniques.",
+      content: (
+        <div className="h-full w-full  flex items-center justify-center text-white">
+          <Image
+            src={image5}
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+          />
+        </div>
+      ),
   },
   {
     title: "Cutting-Edge Curriculum",
     description:
       "Our curriculum is continuously updated to include the latest music education trends and technologies, ensuring you’re always learning with the most current and effective methods. Say goodbye to outdated materials and welcome an education that evolves with the industry.",
+      content: (
+        <div className="h-full w-full  flex items-center justify-center text-white">
+          <Image
+            src={image6}
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+          />
+        </div>
+      ),
+      
   },
   {
     title: "Limitless Learning Opportunities",

@@ -8,10 +8,10 @@ import Image from "next/image";
 const page = () => {
   return (
     <div>
-      <div className="h-screen w-screen relative bg-gray-900">
+      <div className="h-screen w-screen relative bg-gray-900 text-white">
 <div className="h-screen w-full flex  flex-col justify-center items-center">
 
-<h2 className="text-4xl font-bold  underline mb-6 text-center">Contact Us</h2>
+<h2 className="text-6xl font-bold  underline mb-6 text-center">Contact Us</h2>
 
         <div className="h-fit flex  gap-5  justify-center items-center">
           <div>
