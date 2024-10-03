@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="min-h-screen bg-black py-12 pt-36">
+    <div className="min-h-screen bg-black text-white py-12 pt-36">
       <h1 className="text-lg md:text-7xl  text-center font-sans font-bold mb-8">
         All Courses ({coursesData.courses.length})
       </h1>
